@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6i0061/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0061/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說文殊師利淨律經
+  identifiers:
+    krp: KR6i0061
+    cbeta: T14n0460
+    cbeta_old_id: T14n0460
+    authorityid: CA0003362
+    json_key: T0460
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0460.xml
+    old_id: T14n0460
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0061_000-T.yaml, hash: 'sha256:a92805adb89dfc51a2fcaeb942fde8f94cb1cd5686f76100d1391f2a86dccc76'}
+  - {seq: 1, filename: KR6i0061_001-T.yaml, hash: 'sha256:daf4c6ef35d59debc33d75d521bb30b1cdffd2a50bda0e17412938d2e2a95356'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0061_000-T.markers.yaml, hash: 'sha256:702cb4ff6b53b8544c457af71b312aa5c5ebd5e3351ffea44282a7fbb51240f3'}
+  - {seq: 1, role: markers, filename: assets/KR6i0061_001-T.markers.yaml, hash: 'sha256:e617b9c29553309169bc907b2f7bd7fdd09b6c70607ca78323d7d3dc03d09b1d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5900
+  label: 佛說文殊師利淨律經
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-mulu-1
+    span:
+    - body
+    - 11
+    - 11
+  label: 1 真諦義品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-mulu-2
+    span:
+    - body
+    - 1301
+    - 1301
+  label: 2 聖諦品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-mulu-3
+    span:
+    - body
+    - 3030
+    - 3030
+  label: 3 解律品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-mulu-4
+    span:
+    - body
+    - 4634
+    - 4634
+  label: 4 道門品
+  type: mulu
+  level: 1
+hash: sha256:d0d0f2f81b9d5bab2cbdef38cf3879b843c490f218ef5b0e08809f351be649ab

@@ -1,0 +1,94 @@
+canonical_identifier: bkk:krp/KR6i0061/v1
+canonical_location: https://kanripo.org/bkk/KR6i0061/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說文殊師利淨律經
+  identifiers:
+    alt_id:
+    - T14n0460
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0460.xml
+    old_id: T14n0460
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0061_000.yaml, hash: 'sha256:a92805adb89dfc51a2fcaeb942fde8f94cb1cd5686f76100d1391f2a86dccc76'}
+  - {seq: 1, filename: KR6i0061_001.yaml, hash: 'sha256:82a5d6e80f6c83dfaeda6d5eaf6ce1bc82c9bc3684d58abc20b0237e1c6c5b44'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0061_001.markers.yaml, hash: 'sha256:878106708b011ff0809677511d183397d118413b1282cf907e66b4abd5d9b374'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5900
+  label: 佛說文殊師利淨律經
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-mulu-1
+    span:
+    - body
+    - 11
+    - 11
+  label: 1 真諦義品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-mulu-2
+    span:
+    - body
+    - 1301
+    - 1301
+  label: 2 聖諦品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-mulu-3
+    span:
+    - body
+    - 3030
+    - 3030
+  label: 3 解律品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0061_T_001-mulu-4
+    span:
+    - body
+    - 4634
+    - 4634
+  label: 4 道門品
+  type: mulu
+  level: 1
+hash: sha256:d81c90d3ccc012b4b55962a9506f971d0d1b2e7cd20a9d5728bb1812417d2023
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
